@@ -3,6 +3,11 @@
     font-family: "Rubik", sans-serif;
 }
 
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
 .finder {
     background: url('../images/pattern-bg-desktop.png');
     background-size: cover;
@@ -100,14 +105,14 @@
 }
 
 .map {
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 317px);
+    width: 100%;
 }
 
 @media (min-width: 1024px) {
     .info {
         width: 100%;
         max-width: 1000px;
-        transform: translateY(50%);
         margin-left: auto;
         margin-right: auto;
         position: relative;
